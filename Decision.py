@@ -8,7 +8,7 @@ def run_forecast():
     # -------------------------
     # CONFIG
     # -------------------------
-    CSV_PATH = 'C:/Users/quinn/Desktop/Coding/ML/priceElec/Netherlands.csv'
+    CSV_PATH = 'Netherlands.csv'
     BZN = "NL"
     HOURS_BACK = 96
     PRED_HOURS = 12
