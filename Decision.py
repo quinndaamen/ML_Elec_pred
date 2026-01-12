@@ -10,7 +10,7 @@ def run_forecast():
     # CONFIG
     # -------------------------
     
-    CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "Netherlands.csv")
+    CSV_PATH = os.path.join(os.getcwd(), "Netherlands.csv")
 
     BZN = "NL"
     HOURS_BACK = 96
