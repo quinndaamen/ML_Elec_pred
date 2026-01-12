@@ -3,12 +3,15 @@ import pandas as pd
 import numpy as np
 import requests
 import xgboost as xgb
+import os
 
 def run_forecast():
     # -------------------------
     # CONFIG
     # -------------------------
-    CSV_PATH = 'Netherlands.csv'
+    
+    CSV_PATH = os.path.join(os.path.dirname(__file__), "data", "Netherlands.csv")
+
     BZN = "NL"
     HOURS_BACK = 96
     PRED_HOURS = 12
